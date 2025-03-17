@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>VR - Home</title>
+    <meta name="viaggi" content=" <<Let's Be Friends!>> Form">
+</head>
+<body bgcolor="#f1e7e3" text="#333">
+<font face = "Arial">
+    <h1 align="center" size="6"> Let's be friends!</h1>
+    <form method="post">
+        <table width="50%" border="1">
+            <tr valign="top">
+                <td>
+                    <label for="fname">Nome: </label>
+                    <input type="text" id="fname" name="fname" placeholder="Mario" required><br/><br/>
+                </td>
+                <td>
+                    <label for="fcognome">Cognome: </label>
+                    <input type="text" id="fcognome" name="fcognome" placeholder="Rossi" required><br/><br/>
+                </td>
+            </tr>
+
+            <tr valign="top">
+                <td>
+                    <label for="fe-mail">Inserire la propria e-mail: </label>
+                    <input type="email" id="fe-mail" name="email" placeholder="example@gmail.com" required><br/><br/>
+                </td>
+                <td>
+                    <label>Scegli il tuo genere:</label><br/>
+                    <input type="radio" id="maschio" name="genere" value="M" required>
+                    <label for="maschio">Maschio</label><br/>
+                    <input type="radio" id="femmina" name="genere" value="F">
+                    <label for="femmina">Femmina</label><br/>
+                    <input type="radio" id="animale" name="genere" value="A">
+                    <label for="animale">Animale</label><br/>
+                    <input type="radio" id="nrispondo" name="genere" value="N">
+                    <label for="nrispondo">Preferisco non rispondere</label>
+                </td>
+            </tr>
+        </table>
+        <br/>
+        <label for="age">Età:</label>
+        <input type="number" id="age" name="age" min="0" max="120" required><br/><br/>
+
+        <label>Seleziona i tuoi interessi:</label><br/>
+        <input type="checkbox" id="sport" name="interessi" value="Sport">
+        <label for="sport">Sport</label><br/>
+        <input type="checkbox" id="musica" name="interessi" value="Musica">
+        <label for="musica">Musica</label><br/>
+        <input type="checkbox" id="tecnologia" name="interessi" value="Tecnologia">
+        <label for="tecnologia">Tecnologia</label><br/><br/>
+
+        <label for="comment">Lascia qui un commento:</label><br/>
+        <textarea id="comment" name="comment" placeholder="Commenta qui..." rows="5" cols="50"></textarea><br/><br/>
+
+        <input type="submit" value="Invia">
+    </form>
+    <div align="center">
+        <a href="home.html">TORNA ALLA HOME</a>
+    </div>
+</font>
+</body>
+</html>
